@@ -24,3 +24,10 @@
 - [x] Busca de pokemons pelo nome
 - [x] Limpar busca realizada sem refresh da página
 - [ ] Responsividade
+
+
+<a target="_blank" href="https://hitalosalucci.github.io/metronomoonline">PROJETO HOSPEDADO</a>
+
+<hr>
+
+Dev by 🖥️ Hitalo Salucci ➡️ [Veja meu LinkedIn](https://www.linkedin.com/in/hitalosalucci) 
