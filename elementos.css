@@ -1,0 +1,255 @@
+div .texto-center{
+  text-align: center;
+}
+
+button:disabled{
+  cursor: not-allowed;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 14px 24px;
+    border: 0 none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    height: 50px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    transform: scale(1.03);
+}
+
+.btn-busca{
+    margin-right: 10px;
+    background: #0084c2;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.btn-busca:hover{
+    background: #1079aa;
+}
+
+.btn-limpar{
+  background: #a1a7ac;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.btn-limpar:disabled{
+  background: #d3d2d2;
+  color: #f1f1f1;
+}
+
+.btn-limpar:hover:enabled{
+  background: #969da3;
+}
+
+.inputBusca{
+    width: 450px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #2d2e3a;
+    box-shadow: 0 5px 20px #b6bfc794;
+}
+
+.inputBusca:focus{
+    outline: none;
+    box-shadow: 0px 0px 6px 1px rgba(0,132,194,0.8);
+}
+
+.div-mensagem-wrap .mensagem-fechar{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  line-height: 15px;
+}
+
+.div-mensagem-wrap .mensagem-fechar span{
+  cursor: pointer;
+  color: #e0dede;
+  text-decoration: none;
+}
+
+.div-mensagem-wrap .mensagem-fechar span:hover{
+  color: #fff;
+}
+
+.div-mensagem{
+  display: none;
+  width: 70%;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bolder;
+  height: 50px;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: #000000b0;
+  border-radius: 5px;
+  z-index: 100;
+  bottom: 10px;
+  box-shadow: 0px 0px 18px -5px #000000;
+  text-shadow: 1px 0px 5px #3f3f3f;
+  animation-name: sumir-div;
+  animation-duration: 0.8s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+  cursor: help;
+}
+
+.div-mensagem span{
+  color: #fff;
+  font-size: 20px;
+}
+
+.modal-container{
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #1b1b1b98;
+  z-index: 2000;
+}
+
+.modal-container.mostrar{
+  display: flex;
+}
+
+.modal{
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 10px;
+  border: #a19f9f;
+  box-shadow: 0px 0px 30px 8px #1a1a1ab7;
+  padding: 20px;
+}
+
+.mostrar .modal{
+  animation: modal-fadeIn 0.3s;
+}
+
+@keyframes modal-fadeIn{
+  from{
+    opacity: 0;
+    transform: translate(0, -80px);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+}
+
+.modal button.btn-fechar{
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid#5e5d5d;
+  font-size: 18px;
+  background: #f3f3f3;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.modal button.btn-fechar:hover{
+  background: #d88071;
+  color: #fff;
+}
+
+.modal-confirmacao{
+  text-align: center;
+  width: 350px;
+  height: 200px;
+}
+
+.modal-confirmacao img{
+  width: 80px;
+}
+
+.modal-confirmacao button{
+  font-size: 14px;
+  line-height: 14px;
+  height: 45px;
+  width: 80px;
+}
+
+.modal-confirmacao button.btn-confirmar{
+  background-color: #1b9237;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.modal-confirmacao button.btn-confirmar:hover{
+  background-color: #117428;
+}
+
+.modal-confirmacao button.btn-negar{
+  background-color: #aa3e2b;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.modal-confirmacao button.btn-negar:hover{
+  background-color: #913323;
+}
+
+.modal-pokemon{
+  width: 680px;
+  height: 540px;
+}
+
+.modal-pokemon h2.modal-titulo{
+  color: #000;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 720px) {
+  .modal-pokemon{
+    width: 400px;
+    height: 600px;
+  }
+
+  .div-mensagem{
+    width: 90%;
+  }
+
+  .div-mensagem span{
+    font-size: 14px;
+  }
+}
+
+@keyframes sumir-div{
+    0%{opacity: 0.9;}
+    20%{opacity: 0.7;}
+    40%{opacity: 0.5;}
+    60%{opacity: 0.3;}
+    80%{opacity: 0.1;}
+    90%{opacity: 0;}
+    to{
+      opacity: 0; 
+      z-index: -10;
+      display: none;
+    }
+}

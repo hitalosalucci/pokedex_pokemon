@@ -1,0 +1,105 @@
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-wrap{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50vw;
+    height: 75vh;
+    margin-top: 12vh;
+    border: 1px solid #000;
+    transition: all 0.2s linear; 
+}
+
+.quiz-perguntas{
+    padding: 10px;
+}
+
+.quiz-perguntas>.title{
+    text-align: center;
+}
+
+.capa-wrap{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+img.capa-inicio {
+    width: 100%;
+}
+
+.button-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 14px 24px;
+    border: 0 none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    transform: scale(1.03);
+}       
+
+.btn-iniciar{
+    font-size: 18px;
+    line-height: 30px;
+    height: 60px;
+    width: 190px;
+    background: #027dc5;
+    color: #ffffff;
+}
+
+.btn-iniciar:hover{
+    background: #0271b1;
+}
+
+.btn-facil{
+    line-height: 22.5px;
+    height: 45px;
+    width: 120px;
+    background: #007e1f;
+    color: #ffffff;
+}
+
+.btn-facil:hover{
+    background: #006419;
+}
+
+.btn-dificil{
+    line-height: 22.5px;
+    height: 45px;
+    width: 120px;
+    background: #ac3612;
+    color: #ffffff;
+}
+
+.btn-dificil:hover{
+    background: #8d290a;
+}
+
+.animacao-pikachu{
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+img.animacao-pikachu-running{
+    height: 90px;
+}
