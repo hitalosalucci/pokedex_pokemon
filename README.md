@@ -1,8 +1,8 @@
-<h2>POKEDEX</h2>
+<h2 align="center">POKEDEX</h2>
 
 <hr>
 
-<h4><strong>🚧 PROJETO EM CONTRUÇÃO - RESPONSIVIDADE EM ANDAMENTO</strong> 🚧</h4>
+<h4 align="center"><strong>🚧 PROJETO EM CONTRUÇÃO - RESPONSIVIDADE EM ANDAMENTO</strong> 🚧</h4>
 
 <p>Projeto web construído utilizando HTML, CSS e JAVASCRIPT puros, com o objetivo de aprendizado nas linguagens puras sem a utilização de bibliotecas e frameworks</p>
 
@@ -19,8 +19,8 @@
 
 <h3>Features:</h3>
 
-- [x]Listagem de todos pokemons da primeira geração
-- [x]Carregamento da lista de pokemons de acordo com necessidade(nesse caso, ao chegar ao fim da página)
-- [x]Busca de pokemons pelo nome
-- [x]Limpar busca realizada sem refresh da página
-- [ ]Responsividade
+- [x] Listagem de todos pokemons da primeira geração
+- [x] Carregamento da lista de pokemons de acordo com necessidade(nesse caso, ao chegar ao fim da página)
+- [x] Busca de pokemons pelo nome
+- [x] Limpar busca realizada sem refresh da página
+- [ ] Responsividade
