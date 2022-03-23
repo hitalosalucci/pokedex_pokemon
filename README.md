@@ -26,7 +26,7 @@
 - [ ] Responsividade
 
 
-<a target="_blank" href="https://hitalosalucci.github.io/metronomoonline">PROJETO HOSPEDADO</a>
+<a target="_blank" href="https://hitalosalucci.github.io/pokedex_pokemon">PROJETO HOSPEDADO</a>
 
 <hr>
 
